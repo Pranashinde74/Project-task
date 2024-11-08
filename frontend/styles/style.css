@@ -1,0 +1,149 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, #0077b6, #00b4d8);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #e0f7fa;
+    padding: 3rem;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #0077b6;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-main {
+    background-color: #0077b6;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-main:hover {
+    background-color: #00b4d8;
+}
+
+/* Content Section */
+.content {
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.course-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.course h3 {
+    font-size: 1.5rem;
+    color: #0077b6;
+    margin-bottom: 1rem;
+}
+
+.course p {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.btn-course {
+    background-color: #00b4d8;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-course:hover {
+    background-color: #0077b6;
+}
+
+/* Footer */
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
